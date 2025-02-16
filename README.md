@@ -1,4 +1,4 @@
-# **Peer-to-Peer Learning Social Platform **
+# **Peer-to-Peer Learning Social Platform**
 
 ## **Overview**
 PS-10 is a **Peer-to-Peer Learning Social Platform** built using **MERN Stack**, integrating **Knowledge Graphs** to recommend learning partners based on skills. The platform allows users to create and join learning groups, interact via personal chat (using WebSockets), and engage through a user-friendly dashboard featuring connections and relevant posts.
