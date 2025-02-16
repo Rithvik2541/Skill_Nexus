@@ -31,14 +31,8 @@ PS-10 is a **Peer-to-Peer Learning Social Platform** built using **MERN Stack**,
 2. **Complete your profile** by adding skills and linking GitHub/LeetCode.
 3. **Find learning partners** using the **knowledge graph recommendation system**.
 4. **Chat in real-time** using WebSockets.
-5. **Join study sessions** via **WebRTC-powered video calls**.
-6. **Engage with posts** and share knowledge within your network.
+5. **Engage with posts** and share knowledge within your network.
 
-## **Future Enhancements**
-- AI-powered **study partner suggestions**.
-- **Gamification & leaderboards** to encourage engagement.
-- **API integrations** with more coding platforms.
-- **Mobile App version** (React Native).
 
 
 ## **License**
