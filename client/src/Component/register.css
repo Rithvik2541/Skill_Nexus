@@ -1,0 +1,97 @@
+.registerContainer {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+    padding: 3rem 1rem;
+  }
+  
+  .formCard {
+    max-width: 32rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 20px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    padding: 2.5rem;
+    backdrop-filter: blur(10px);
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    color: #64748b;
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .inputGroup {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .icon {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6366f1;
+    font-size: 1.25rem;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 3rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    background: rgba(255, 255, 255, 0.9);
+  }
+  
+  .input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: #94a3b8;
+  }
+  
+  .submitButton {
+    width: 100%;
+    padding: 0.875rem;
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+  }
+  
+  .submitButton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px -10px rgba(99, 102, 241, 0.5);
+  }
+  
+  .submitButton:active {
+    transform: translateY(0);
+  }
+  
+  @media (max-width: 640px) {
+    .formCard {
+      padding: 1.5rem;
+    }
+    
+    .title {
+      font-size: 2rem;
+    }
+  }
