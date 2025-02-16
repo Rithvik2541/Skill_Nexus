@@ -1,36 +1,47 @@
-# Nexity App
+# **Peer-to-Peer Learning Social Platform **
 
-Nexity is a platform designed to connect students with like-minded individuals and mentors using advanced machine learning algorithms. The app leverages user data from platforms like GitHub, LinkedIn, and LeetCode to match users based on their skills, interests, and profiles. It uses powerful Natural Language Processing (NLP) models, including BERT transformers and vector embeddings, to match users with the most relevant mentors or peers.
+## **Overview**
+PS-10 is a **Peer-to-Peer Learning Social Platform** built using **MERN Stack**, integrating **Knowledge Graphs** to recommend learning partners based on skills. The platform allows users to create and join learning groups, interact via personal chat (using WebSockets), and engage through a user-friendly dashboard featuring connections and relevant posts.
 
-## Features
+## **Key Features**
+- **Knowledge Graph-Based Peer Matching**: Uses **graph-based recommendations** to connect learners based on skills and interests.
+- **Personal Chat with WebSockets**: Real-time **1:1 messaging** for seamless collaboration.
+- **Skill-Based Learning Groups**: Users can create and join **learning communities**.
+- **Connection & Post System**: Users can **follow** connections and view **learning-related posts**.
+- **Interactive Dashboard**: A personalized user interface displaying **connections, discussions, and posts**.
+- **User Profile Integration**: Pulls coding profiles and projects from **RapidAPI (e.g., GitHub, LeetCode)** to extract technical skills.
 
-- **User Matching**: Match students with mentors or like-minded peers using machine learning algorithms.
-- **GitHub, LinkedIn, and LeetCode Integration**: Fetch user profiles from popular platforms to gather skills, repositories, achievements, and more.
-- **Vector Embeddings**: Uses `Word2Vec` or custom vector embeddings to represent user profiles.
-- **BERT Transformer**: Leverages the power of BERT transformers to analyze user data and perform accurate similarity matching.
-- **Similarity Search**: Finds users with the highest similarity to each other, based on their profiles and activity.
+## **Tech Stack**
+### **Frontend**
+- React.js (User Interface)
+- Tailwind CSS (Styling)
+- WebSockets (Real-time messaging)
 
-## Technologies Used
+### **Backend**
+- Node.js (Server-side logic)
+- Express.js (API handling)
+- MongoDB (Data storage for users, posts, and connections)
+- Knowledge Graphs (Skill-based recommendation system)
+- WebSockets (Real-time communication)
 
-### Frontend (MERN Stack)
-- **MongoDB**: NoSQL database for storing user data and profiles.
-- **Express.js**: Web framework for building RESTful APIs.
-- **React.js**: JavaScript library for building the user interface.
-- **Node.js**: JavaScript runtime environment for backend services.
 
-### Machine Learning & NLP
-- **Streamlit**: For building the user interface and enabling interactive experiences.
-- **Machine Learning**: Utilizes `Word2Vec`, `BERT`, and other algorithms for creating user profiles and matching them.
-- **APIs**: Fetches user data from GitHub, LinkedIn, and LeetCode to build comprehensive profiles.
-- **FAISS**: For efficient similarity search and storing embeddings.
-- **Pandas and NumPy**: For handling and processing user data.
-- **Hugging Face Transformers**: For utilizing BERT models and embeddings.
-- **Flask**: For backend API integration.
 
-## Matching Algorithm
+## **Usage Guide**
+1. **Sign up/Login** to the platform.
+2. **Complete your profile** by adding skills and linking GitHub/LeetCode.
+3. **Find learning partners** using the **knowledge graph recommendation system**.
+4. **Chat in real-time** using WebSockets.
+5. **Join study sessions** via **WebRTC-powered video calls**.
+6. **Engage with posts** and share knowledge within your network.
 
-The matching algorithm works as follows:
-1. **Profile Extraction**: User profiles are extracted from GitHub, LinkedIn, and LeetCode via APIs.
-2. **Text Preprocessing**: Text data from these profiles (skills, repositories, articles, etc.) is preprocessed and vectorized using `Word2Vec` or other embeddings.
-3. **Similarity Calculation**: BERT transformers and similarity search (using FAISS) are used to calculate the similarity between different users.
-4. **Matching**: Based on the similarity score, the app recommends users with the highest match.
+## **Future Enhancements**
+- AI-powered **study partner suggestions**.
+- **Gamification & leaderboards** to encourage engagement.
+- **API integrations** with more coding platforms.
+- **Mobile App version** (React Native).
+
+
+## **License**
+This project is licensed under the **MIT License**.
+
+
